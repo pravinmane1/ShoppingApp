@@ -20,6 +20,7 @@ public class CartItem {
     public CartItem(int itemId, int price, String productName) {
         this.itemId = itemId;
         this.price = price;
+
         this.productName = productName;
     }
 
