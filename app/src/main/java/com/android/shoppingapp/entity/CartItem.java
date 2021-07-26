@@ -17,6 +17,7 @@ public class CartItem {
     @ColumnInfo(name = "productName")
     private String productName;
 
+
     public CartItem(int itemId, int price, String productName) {
         this.itemId = itemId;
         this.price = price;
